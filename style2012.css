@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popping", serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #222831;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0 0.5rem;
+    max-width: 1200px;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+
+.arrow {
+    position: absolute;
+    transform: translateX(-5.5rem) translateY(1.5rem);
+}
+
+.divprincipal {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.name1 {
+    font-size: 3rem;
+    color: #eeeeee;
+}
+
+.name2 {
+    font-size: 4rem;
+    color: #00abd5;
+}
+
+.parag {
+    color: #FFA500;
+}
+
+.acceuil, .sst3, .sst4, .sst5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1000px;
+    gap: 10rem;
+}
+
+.st1, .st3, .st4, .st5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.titrest1, .titrest3, .titrest4, .titrest5 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+
+.titrest1h1, .titrest3h1, .titrest4h1, .titrest5h1 {
+    color: red;
+}
+
+.pst1 {
+    text-align: justify;
+    color: black;
+}
+
+.sst2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+}
+
+.st2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.st2 {
+    color: #eeeeee;
+}
+
+.titrest2 {
+    color: #00abd5;
+}
+
+.pst1, .pst2, .pst3, .pst4, .pst5 {
+    width: 100%;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.2);
+}
+
+.imgst4 {
+    width: 40%;
+}
+
+.pst2 {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: #eeeeee;
+}
+
+footer a {
+    color: #00abd5;
+}
+
+.titrest4h1 {
+    font-size: 40px;
+}
+
+.titrest5h1 {
+    font-size: 40px;
+}
+
+.acceuil {
+    margin-top: 200px;
+}
